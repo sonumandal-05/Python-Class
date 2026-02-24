@@ -1,0 +1,11 @@
+name_1 = input("Enter First Player Name: ")
+name_2 = input("Enter Second Player Name: ")
+name_3 = input("Enter Third Player Name: ")       
+name_4 = input("Enter Fourth Player Name: ")
+print("Welcome to the game", name_1, name_2, name_3, name_4)
+print("Let's start the game")
+print("The rules of the game are as follows:")
+print("1. Each player will take turns to roll a dice.")
+print("2. The player with the highest number on the dice wins.")
+print("3. If there is a tie, the players will roll the dice again.")
+import random
