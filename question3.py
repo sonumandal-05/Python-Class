@@ -9,10 +9,11 @@
 x = int(input("Enter the number of elements \n: "))
 l = []
 for i in range(x):
-    choice = (input("Type 'n' for number and 'c' for character \n: "))
+    choice = input("Type 'n' for number and 'c' for character \n: ")
     if choice == 'n':
         l.append (int(input("Enter the number \n: ")))
     else:
         l.append (input("Enter the character \n: "))
 print(l)
-print(l.reverse())
+# l.reverse()
+print(l[::-1])
